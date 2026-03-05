@@ -61,16 +61,26 @@ const fiveSyllables = [
   "wolf is on the prowl",
   "i am the big bad wolf",
   "hunt and howl alone",
-  "nighttime is my day",
+  "nighttime is his day",
   "i am unafraid",
+  "the monster, the moon",
+  "hear that distant howl?",
+  "something is coming",
+  "better start running",
+  "he is on the hunt",
+  "watch your back my love"
+
 ];
 const sevenSyllables = [
   "he is looking for a way out",
   "he is unafraid of you", 
   "nothing left to do but sleep",
-  "through the woods i creep",
   "isolation is freedom",
   "cannot runaway, or tame",
+  "looking desperately to feed",
+  "at night things are scary",
+  "the dawn of day can't save me"
+
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
