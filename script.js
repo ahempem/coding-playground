@@ -60,7 +60,7 @@ function dropdownFun() {
 const fiveSyllables = [
   "wolf is on the prowl",
   "i am the big bad wolf",
-  "hunt and howl alone",
+  "working best alone",
   "nighttime is his day",
   "i am unafraid",
   "the monster, the moon",
@@ -79,7 +79,7 @@ const sevenSyllables = [
   "cannot runaway, or tame",
   "looking desperately to feed",
   "at night things are scary",
-  "the dawn of day can't save me"
+  "the dawn of day can't save you"
 
 ];
 //code for haiku function (do not edit)
