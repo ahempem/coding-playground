@@ -74,7 +74,7 @@ const fiveSyllables = [
 const sevenSyllables = [
   "he is looking for a way out",
   "he is unafraid of you", 
-  "nothing left to do but sleep",
+  "make sure you don't fall asleep",
   "isolation is freedom",
   "cannot runaway, or tame",
   "looking desperately to feed",
