@@ -46,15 +46,15 @@ function dropdownFun() {
   } else if (x === "tuesday") {
     addText("go to the shops, buy milk, fix the car, finish essay, text friend back, go for a run");
   } else if (x === "wednesday") {
-    addText("- wake up, paint the house, don’t panic");
+    addText("wake up, paint the house, don’t panic");
   } else if (x === "thursday") {
-    addText("- call mum, do everything you were meant to do on tuesday");
+    addText("call mum, do everything you were meant to do on tuesday");
   } else if (x === "friday") {
-    addText("- go to the pharmacy, read a book, reply to jury duty callout, pay bills and rent, vacuum, meal prep for weekend");
+    addText("go to the pharmacy, read a book, reply to jury duty callout, pay bills and rent, vacuum, meal prep for weekend");
   } else if (x === "saturday") {
-    addText("- walk the dog, go to the doctor, smile more, listen to a podcast, shower, sleep, have a beer because it’s saturday")
+    addText("walk the dog, go to the doctor, smile more, listen to a podcast, shower, sleep, have a beer because it’s saturday")
   } else if (x === "sunday") {
-    addText("slep.")} 
+    addText("😴")} 
 }
 
 //end of dropdown function
@@ -167,7 +167,7 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "they, i, we, you".split(
       ","
     ),
   verbs =
