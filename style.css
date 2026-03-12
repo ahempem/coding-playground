@@ -56,7 +56,7 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/clouds.jpg");
+  background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -132,11 +132,14 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: green;
+  background-color: rgb(186, 42, 63);
   color: white;
-  font-family: "PT Serif", serif; /* font for <p> text */
-  font-size: 14px;
-  text-align: center;
+  .syne-mono-regular {
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
 }
 
 /* Style the card for the search results */

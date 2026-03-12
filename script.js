@@ -41,18 +41,22 @@ function addText(content) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFun() {
   var x = document.getElementById("subject").value;
-  if (x === "terrified") {
-    addText("run, run as fast as you can!");
-  } else if (x === "brave") {
-    addText("good luck, soldier!");
-  } else if (x === "mortal") {
-    addText("shame, isn't it? to be held down by your beating heart.");
-  } else if (x === "hungry") {
-    addText("so am i!");
-  } else if (x === "excited") {
-    addText("come, join me!");
-  }
+  if (x === "monday") {
+    addText("make bed, get back in it.")
+  } else if (x === "tuesday") {
+    addText("go to the shops, buy milk, fix the car, finish essay, text friend back, go for a run");
+  } else if (x === "wednesday") {
+    addText("- wake up, paint the house, don’t panic");
+  } else if (x === "thursday") {
+    addText("- call mum, do everything you were meant to do on tuesday");
+  } else if (x === "friday") {
+    addText("- go to the pharmacy, read a book, reply to jury duty callout, pay bills and rent, vacuum, meal prep for weekend");
+  } else if (x === "saturday") {
+    addText("- walk the dog, go to the doctor, smile more, listen to a podcast, shower, sleep, have a beer because it’s saturday")
+  } else if (x === "sunday") {
+    addText("slep.")} 
 }
+
 //end of dropdown function
 
 //start of haiku function
