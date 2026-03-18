@@ -175,7 +175,7 @@ const subjects =
       ","
     ),
   objects =
-    "the bone, blood, they, i, we, you, brave soldiers, forgiveness, redemption, the moon, deserted forests at night, bedtime stories, a safe place, ritualistic caves".split(
+    "the bone, blood, them, me, us, you, brave soldiers, forgiveness, redemption, the moon, deserted forests at night, bedtime stories, a safe place, ritualistic caves".split(
       ","
     );
 // set up the counter
