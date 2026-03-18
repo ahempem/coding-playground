@@ -171,7 +171,7 @@ const subjects =
       ","
     ),
   verbs =
-    "warn about, run towards, eat, destroy, smile at, beg for, run from, scream for, journey to find, hate, strive to discover, will never reach, mock, communicate to".split(
+    "speak of, run towards, eat, destroy, smile at, beg for, run from, scream for, journey to find, hate, strive to discover, will never reach, mock, communicate to".split(
       ","
     ),
   objects =
