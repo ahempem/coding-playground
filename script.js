@@ -12,14 +12,12 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "Fight, you die.",
+  "Freeze, you die.",
+  "Fawn, you die.",
+  "Flight, you die.",
+  "There's no way out.",
+  "No one can save you.",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -54,7 +52,7 @@ function dropdownFun() {
   } else if (x === "saturday") {
     addText("walk the dog, go to the doctor, smile more, listen to a podcast, shower, sleep, have a beer because it’s saturday")
   } else if (x === "sunday") {
-    addText("😴")} 
+    addText("sleep.")} 
 }
 
 //end of dropdown function
@@ -116,26 +114,29 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "am i going to survive this?",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "bad wolf why bad?",
+  "big bad wolf found where?",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "can i outrun a monster?",
+  "can i outrun a monster in heels?",
+  "car battery broken how do i fix?",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "deletion of phone data upon death?",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "emergency contact how to find?",
 
-  "fridge magnets",
+  "frightening things to say to a wolf?",
+
+  "greatest escape stories?",
+
+  "how to stop self from bleeding out?",
+  "HELP!!",
+
+  "i'm going to die, aren't i?", 
+
+  "resurrection spell"
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -156,7 +157,7 @@ function changeText(e) {
 
     if (resultWords.length === 0) {
       const line = document.createElement("div");
-      line.innerHTML = "no results";
+      line.innerHTML = "you're too late";
       textWrapper.appendChild(line);
     }
   }
@@ -167,15 +168,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "wolves, seven friends, vampires, artists, night-crawlers, sleep-walkers, undead souls, victims of the past, skeletons".split(
+    "wolves, your friends, night-crawlers, the undead, children, you, soldiers, men, animals, children, small particles".split(
       ","
     ),
   verbs =
-    "speak of, run towards, eat, destroy, smile at, beg for, run from, scream for, journey to find, hate, strive to discover, will never reach, mock, communicate to".split(
+    "search, flee, destroy, journey through, ravage, fear, speak of, run towards, eat, destroy, smile at, beg for, run from, scream for, journey to find, hate, strive to discover, will never find".split(
       ","
     ),
   objects =
-    "the bone, blood, them, me, us, you, brave soldiers, forgiveness, redemption, the moon, deserted forests at night, bedtime stories, a safe place, ritualistic caves".split(
+    "the darkness, the distant lands, safe spaces, eerie caves, large and looming mountains, blood, them, me, us, you, brave soldiers, forgiveness, redemption, the moon, deserted forests at night, bedtime stories, a safe place, ritualistic caves".split(
       ","
     );
 // set up the counter

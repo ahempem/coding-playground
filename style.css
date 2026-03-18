@@ -2,21 +2,21 @@
 
 /* style body font - this is the default font if you don't specify a font using one of the header labels (h1, h2, h3, h4)*/
 body {
-  font-family: "Syne Mono", monospace;
+  font-family: "Datatype", monospace;
   font-size: 12px;
   margin: 2em;
   background: #cbf1e4;
   background-image: linear-gradient(
     black,
-    pink,
-    #cbf1e4
+    rgb(125, 4, 4),
+    #2e0000
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
 }
 
 /* font used for dropdown menu - edit this*/
 h2 {
-  font-family: "Syne Mono", monospace;
+  font-family: "Datatype", monospace;
   text-shadow: 1px 1px white;
   font-size: 400;
   font-style: bold;
@@ -90,7 +90,7 @@ h5 {
   background-repeat: no-repeat;
   min-height: 375px;
   color: white;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Datatype", monospace;
   font-size: 12px;
 }
 
@@ -134,7 +134,7 @@ h5 {
   text-align: center;
   background-color: rgb(186, 42, 63);
   color: white;
-  font-family: "Syne Mono", monospace;
+  font-family: "Datatype", monospace;
   font-weight: 400;
   font-style: normal;
 }
@@ -160,10 +160,10 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("./img/cave.jpg");
+  background-image: url("./img/darkmoon.jpg");
   background-size: cover;
  /* replace this gif background with  --- background-image: url("./img/catBG.gif");an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #4f2609;
+  color: #ffffff;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }
