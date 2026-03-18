@@ -167,15 +167,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "they, i, we, you".split(
+    "they, i, we, you, the wolf will".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "bite, smile at, beg for, run from, scream, hate".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "the bone, blood, forgiveness, redemption, the moon, deserted forests at night, bedtime stories, a safe place, ritualistic caves".split(
       ","
     );
 // set up the counter
