@@ -167,15 +167,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "they, i, we, you, the wolf will".split(
+    "wolves, seven friends, vampires, artists, night-crawlers, sleep-walkers, undead souls, victims of the past, skeletons".split(
       ","
     ),
   verbs =
-    "bite, smile at, beg for, run from, scream, hate".split(
+    "warn about, run towards, eat, destroy, smile at, beg for, run from, scream for, journey to find, hate, strive to discover, will never reach, mock, communicate to".split(
       ","
     ),
   objects =
-    "the bone, blood, forgiveness, redemption, the moon, deserted forests at night, bedtime stories, a safe place, ritualistic caves".split(
+    "the bone, blood, they, i, we, you, brave soldiers, forgiveness, redemption, the moon, deserted forests at night, bedtime stories, a safe place, ritualistic caves".split(
       ","
     );
 // set up the counter
